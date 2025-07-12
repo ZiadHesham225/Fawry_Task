@@ -25,14 +25,14 @@
 
         static void NormalCheckoutTest()
         {
-            var cheeseExpirable = new ExpirableItem(new DateTime(2025, 7, 10));
+            var cheeseExpirable = new ExpirableItem(new DateTime(2025, 7, 15));
             var cheeseShippable = new ShippableItem(0.5);
             var cheese = new Product("Cheese", 10.0, 100, cheeseExpirable, cheeseShippable);
 
             var tvShippable = new ShippableItem(15.0);
             var tv = new Product("TV", 500.0, 10, null, tvShippable);
 
-            var biscuitsExpirable = new ExpirableItem(new DateTime(2024, 12, 31));
+            var biscuitsExpirable = new ExpirableItem(new DateTime(2025, 7, 20));
             var biscuits = new Product("Biscuits", 5.0, 200, biscuitsExpirable);
 
             var mobile = new Product("Mobile", 300.0, 50);
