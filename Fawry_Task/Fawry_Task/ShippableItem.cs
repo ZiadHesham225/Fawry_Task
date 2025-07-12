@@ -9,7 +9,6 @@ namespace Fawry_Task
     public class ShippableItem : IShippable
     {
         private double weight;
-
         public ShippableItem(double weight)
         {
             this.weight = weight;

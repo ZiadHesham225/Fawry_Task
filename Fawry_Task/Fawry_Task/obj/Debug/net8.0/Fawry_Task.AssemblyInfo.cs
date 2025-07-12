@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fawry_Task")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8711f13ee673f9243d713553ba2c812d6d546f86")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fawry_Task")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fawry_Task")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

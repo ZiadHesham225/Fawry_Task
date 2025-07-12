@@ -21,7 +21,7 @@ namespace Fawry_Task
         {
             if (amount > Balance)
             {
-                throw new InvalidOperationException($"Insufficient balance!!!\n Your balance is {Balance} and The total cost is {amount}");
+                throw new InvalidOperationException($"No enough balance!!!\n Your balance is {Balance} and The total cost is {amount}");
             }
             Balance -= amount;
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hesha\\Documents\\CSharp\\Fawry_Task\\Fawry_Task\\Fawry_Task.csproj": {}
+    "C:\\Users\\hesha\\Documents\\New github\\Fawry-Task\\Fawry_Task\\Fawry_Task\\Fawry_Task.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hesha\\Documents\\CSharp\\Fawry_Task\\Fawry_Task\\Fawry_Task.csproj": {
+    "C:\\Users\\hesha\\Documents\\New github\\Fawry-Task\\Fawry_Task\\Fawry_Task\\Fawry_Task.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hesha\\Documents\\CSharp\\Fawry_Task\\Fawry_Task\\Fawry_Task.csproj",
+        "projectUniqueName": "C:\\Users\\hesha\\Documents\\New github\\Fawry-Task\\Fawry_Task\\Fawry_Task\\Fawry_Task.csproj",
         "projectName": "Fawry_Task",
-        "projectPath": "C:\\Users\\hesha\\Documents\\CSharp\\Fawry_Task\\Fawry_Task\\Fawry_Task.csproj",
+        "projectPath": "C:\\Users\\hesha\\Documents\\New github\\Fawry-Task\\Fawry_Task\\Fawry_Task\\Fawry_Task.csproj",
         "packagesPath": "C:\\Users\\hesha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hesha\\Documents\\CSharp\\Fawry_Task\\Fawry_Task\\obj\\",
+        "outputPath": "C:\\Users\\hesha\\Documents\\New github\\Fawry-Task\\Fawry_Task\\Fawry_Task\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

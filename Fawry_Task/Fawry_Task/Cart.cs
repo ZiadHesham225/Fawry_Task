@@ -10,7 +10,6 @@ namespace Fawry_Task
     {
         private Customer customer;
         private Dictionary<Product, int> items;
-
         public Cart(Customer customer)
         {
             this.customer = customer;
@@ -27,7 +26,7 @@ namespace Fawry_Task
 
             if (quantity > product.Quantity)
             {
-                Console.WriteLine($"Insufficient stock for '{product.Name}'.");
+                Console.WriteLine($"No enough stock for '{product.Name}'.");
                 return;
             }
 
@@ -59,21 +58,65 @@ namespace Fawry_Task
             }
 
             List<IShippable> shippableItems = new List<IShippable>();
+            double totalWeight = 0;
+
             foreach (var item in items)
             {
                 Product product = item.Key;
+                int quantity = item.Value;
+
                 if (product.ShippableItem != null)
                 {
-                    int quantity = item.Value;
+                    double itemWeight = product.ShippableItem.GetWeight() * quantity;
+                    totalWeight += itemWeight;
+
                     for (int i = 0; i < quantity; i++)
                     {
                         shippableItems.Add(product.ShippableItem);
                     }
                 }
             }
+            if (shippableItems.Count > 0)
+            {
+                Console.WriteLine("** shipment notice **");
+                foreach (var item in items)
+                {
+                    Product product = item.Key;
+                    int quantity = item.Value;
+
+                    if (product.ShippableItem != null)
+                    {
+                        double itemWeight = product.ShippableItem.GetWeight() * quantity;
+                        string weightFormat = itemWeight >= 1 ? $"{itemWeight:F1}kg" : $"{itemWeight * 1000:F0}g";
+                        Console.WriteLine($"{quantity}x {product.Name}\t\t{weightFormat}");
+                    }
+                }
+            }
+            if (totalWeight > 0)
+            {
+                string totalWeightFormat = totalWeight >= 1 ? $"{totalWeight:F1}kg" : $"{totalWeight * 1000:F0}g";
+                Console.WriteLine($"Total package weight {totalWeightFormat}");
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("** receipt **");
+            foreach (var item in items)
+            {
+                Product product = item.Key;
+                int quantity = item.Value;
+                double itemTotal = product.Price * quantity;
+                Console.WriteLine($"{quantity}x {product.Name}\t\t{itemTotal:F0}");
+            }
+
+            Console.WriteLine("----------------------");
+            Console.WriteLine($"Subtotal\t\t{subtotal:F0}");
 
             double shippingCost = shippingService.CalculateShippingCost(shippableItems);
+            if (shippingCost > 0) Console.WriteLine($"Shipping\t\t{shippingCost:F0}");
+
             double total = subtotal + shippingCost;
+            Console.WriteLine($"Amount\t\t\t{total:F0}");
 
             try
             {
@@ -84,12 +127,6 @@ namespace Fawry_Task
                 Console.WriteLine("Checkout failed: " + e.Message);
                 return;
             }
-
-            Console.WriteLine("Order Details:");
-            Console.WriteLine($"Subtotal: ${subtotal:F2}");
-            Console.WriteLine($"Shipping Fees: ${shippingCost:F2}");
-            Console.WriteLine($"Total Amount Paid: ${total:F2}");
-            Console.WriteLine($"Customer Balance After Payment: ${customer.Balance:F2}");
         }
     }
 }

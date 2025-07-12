@@ -12,3 +12,18 @@ C:\Users\hesha\Documents\CSharp\Fawry_Task\Fawry_Task\obj\Debug\net8.0\refint\Fa
 C:\Users\hesha\Documents\CSharp\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.pdb
 C:\Users\hesha\Documents\CSharp\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.genruntimeconfig.cache
 C:\Users\hesha\Documents\CSharp\Fawry_Task\Fawry_Task\obj\Debug\net8.0\ref\Fawry_Task.dll
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\bin\Debug\net8.0\Fawry_Task.exe
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\bin\Debug\net8.0\Fawry_Task.deps.json
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\bin\Debug\net8.0\Fawry_Task.runtimeconfig.json
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\bin\Debug\net8.0\Fawry_Task.dll
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\bin\Debug\net8.0\Fawry_Task.pdb
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.AssemblyInfoInputs.cache
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.AssemblyInfo.cs
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.csproj.CoreCompileInputs.cache
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.sourcelink.json
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.dll
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\refint\Fawry_Task.dll
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.pdb
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\Fawry_Task.genruntimeconfig.cache
+C:\Users\hesha\Documents\New github\Fawry-Task\Fawry_Task\Fawry_Task\obj\Debug\net8.0\ref\Fawry_Task.dll

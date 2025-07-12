@@ -11,10 +11,10 @@ namespace Fawry_Task
         public string Name { get; }
         public double Price { get; }
         public int Quantity { get; set; }
-        public IExpirable ExpirableItem { get; }
-        public IShippable ShippableItem { get; }
+        public IExpirable? ExpirableItem { get; }
+        public IShippable? ShippableItem { get; }
 
-        public Product(string name, double price, int quantity, IExpirable expirableItem = null, IShippable shippableItem = null)
+        public Product(string name, double price, int quantity, IExpirable? expirableItem = null, IShippable? shippableItem = null)
         {
             Name = name;
             Price = price;
