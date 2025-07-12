@@ -5,7 +5,7 @@ A C# console application implementing an e-commerce shopping cart system that de
 ![Output](assets/screenshot1.png)
 ![Output](assets/screenshot2.png)
 ## Design Principles Used
-### Composition Pattern
+### Composition
 
 Products are composed of optional behaviors (IExpirable, IShippable) rather than using inheritance
 Allows flexible combinations of product features without complex class hierarchies
