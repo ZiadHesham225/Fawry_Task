@@ -1,6 +1,9 @@
 # E-Commerce Cart System
 ## Project Summary
 A C# console application implementing an e-commerce shopping cart system that demonstrates object-oriented design principles. The system manages products with different behaviors (expirable, shippable), handles customer transactions, and processes orders with shipping calculations.
+## Test-Cases
+![Output](assets/screenshot1.png)
+![Output](assets/screenshot2.png)
 ## Design Principles Used
 ### Composition Pattern
 
